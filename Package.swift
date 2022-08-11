@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "GHODictionary",
     platforms: [
-        .iOS(.v8), .tvOS(.v10), .macOS(.v10_10)
+        .iOS(.v12), .tvOS(.v10), .macOS(.v10_10)
     ],
     products: [
         .library(
